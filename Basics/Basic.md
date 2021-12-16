@@ -43,4 +43,90 @@ Constant and variable names can’t contain whitespace characters, mathematical 
 
 Once you’ve declared a constant or variable of a certain type, you can’t declare it again with the same name, or change it to store values of a different type. Nor can you change a constant into a variable or a variable into a constant. For more Go to the [Swift](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
 
+### Type Aliases
+
+`Type aliases` define an alternative name for an existing type using `typeAlias` keyword
+use typeAlias when you want to an existing type by name
+simple Example :
+
+```
+   typeAlais name = String
+   let ahmed: name = "Ahmed Abdi" // this means ahmed is his type is string instead of writing type as string i used this example typeAlias
+```
+
+type Aliases are useful when you define you can use anywhere you want.
+
+### Booleans
+
+Boolean values are referred to as logical becouse they can be true or false
+for Example :
+
+```
+    let lightIstrun = true
+```
+
+To check boolean values we use conditional Statement using `if else`
+we have a variable `lightIstrun` let's check
+
+```
+    if lightIstrun { // this will check if true, will "Light is trunned on" also if lightIstrun is false will jump else
+        print("Light is trunned on")
+    } else {
+        print("Light is trunned off")
+    }
+```
+
+### Tuples
+
+Tuples group multiple values into a single compound value. The values within a tuple can be of any type and don’t have to be of the same type as each other.
+
+According to `Paul Handsome` from [Hacking With Swift](https://www.hackingwithswift.com/sixty/2/3/tuples) when he defines, Tuples allow you to store several values together in a single value. That might sound like arrays, but tuples are different:
+
+- You can’t add or remove items from a tuple; they are fixed in size.
+- You can’t change the type of items in a tuple; they always have the same types they were created with.
+- You can access items in a tuple using numerical positions or by naming them, but Swift won’t let you read numbers or names that don’t exist.
+
+```
+    var name = (firstname: "Abdorizak", lastname: "Abdalla")
+```
+
+to access tuple use dot ( . ) by index or name
+
+```
+    name.0  or name.firstname
+```
+
+* ⚡️Remember, you can change the values inside a tuple after you create it, but not the types of values. So, if you tried to change name to be (first: "Justin", age: 25) you would get an error.
+
+### Optionals
+
+one of the my hardest concepts is optional but alot of partice i understand is simple i will try to make simple and give you a short concept of optional.
+
+`Optional` in swift optionals are very importantance when you working with dates that dates comes from api it may nil so swift gives you optional.
+
+another one is when you declare a variable and you want to insert something use optional by telling his type for example :
+
+```
+    var name: string? // this will set automatically nil
+```
+
+another Example :
+```
+    let number = "123" // this is string value we want to convert to int
+    let convertedIntoInt = Int(number)
+    // Output:  optional(123)
+```
+do you know why will print Opetional(123) because of number can be nil
+also remember if string is like "abc" to convert to int it's not allowed becouse it can not be numeric
+
+```nil``` You set an optional variable to a valueless state by assigning it the special value nil
+```
+    var food: string? = "Basto"
+    // food constains an actual string value of "Basto"
+    food = nil
+    food now contains no value
+```
+* ⚡️Remember  you can't use nil with non-optional constants and variables, always declare us optional
+
+
 For more Details Go to the [Swift Documentation](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)

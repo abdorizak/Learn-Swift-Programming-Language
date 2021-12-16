@@ -10,4 +10,4 @@ i was struggling learning swift since when i was beginning, I decided to make th
 
 ### Start with me
 
--[Basics](/Basics/Basic.md)
+ * [Basics](/Basics/Basic.md)

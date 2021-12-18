@@ -1,4 +1,4 @@
-# What's Arrays?
+# What's Array?
 
 `Array` is an ordered list which can be store same data type and also is used to store collection of data that data can be Any.
 

@@ -96,7 +96,7 @@ to access tuple use dot ( . ) by index or name
     name.0  or name.firstname
 ```
 
-* ⚡️Remember, you can change the values inside a tuple after you create it, but not the types of values. So, if you tried to change name to be (first: "Justin", age: 25) you would get an error.
+- ⚡️Remember, you can change the values inside a tuple after you create it, but not the types of values. So, if you tried to change name to be (first: "Justin", age: 25) you would get an error.
 
 ### Optionals
 
@@ -111,22 +111,64 @@ another one is when you declare a variable and you want to insert something use 
 ```
 
 another Example :
+
 ```
     let number = "123" // this is string value we want to convert to int
     let convertedIntoInt = Int(number)
     // Output:  optional(123)
 ```
+
 do you know why will print Opetional(123) because of number can be nil
 also remember if string is like "abc" to convert to int it's not allowed becouse it can not be numeric
 
-```nil``` You set an optional variable to a valueless state by assigning it the special value nil
+`nil` You set an optional variable to a valueless state by assigning it the special value nil
+
 ```
     var food: string? = "Basto"
     // food constains an actual string value of "Basto"
     food = nil
     food now contains no value
 ```
-* ⚡️Remember  you can't use nil with non-optional constants and variables, always declare us optional
 
+- ⚡️Remember you can't use nil with non-optional constants and variables, always declare us optional
+
+`Force Unwrapping using if and else`
+you can use to force Unwrapp if we are going to use operators like `!=` or `==` to perform Compirison example :
+
+```
+if food != nil {
+    print("we have a food")
+} else {
+    print("food is nil")
+}
+```
+
+once if you sure optional constains value you can add exclamation point `!` to the end optional this means you are effectively says i am sure this optional has value this is know as force Unwrapping
+example:
+
+```
+if food != nil {
+    print("we have a food called \(food!)")
+}
+```
+
+`Optional Binding`
+You use optional binding to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable. Optional binding can be used with if and while statements to check for a value inside an optional, and to extract that value into a constant or variable, as part of a single action. Example:
+
+```
+if let food = food { // this optional biding
+    print ("we have a food called \(food)")
+}
+```
+
+`Implicitly Unwrapped Optionals` this means you perform unwrapp without using if. this will throw an error if you optional value doesn't contain a value will crash you app that means you making a promise that optional will have a value sometimes this is not best practice only use when you know if optional has a value
+
+```
+let possibleString: String? = "An optional string."
+let forcedString: String = possibleString! // requires an exclamation point
+
+let assumedString: String! = "An implicitly unwrapped optional string."
+let implicitString: String = assumedString // no need for an exclamation point
+```
 
 For more Details Go to the [Swift Documentation](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)

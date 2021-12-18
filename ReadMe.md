@@ -10,6 +10,8 @@ i was struggling learning swift since when i was beginning, I decided to make th
 
 ### Start with me
 
-- [Basics](/Basics/Basic.md)
-- [Collection Types]()
-  - [Array](/Collection%20Types/Array.md)
+* [Basics](/Basics/Basic.md)
+* [Collection Types]()
+  * [Array](/Collection%20Types/Array.md)
+  * [Dictionary](/collection%20Types/Dictionary.md)
+  * [Sets](/collection%20Types/Set.md)

@@ -171,4 +171,62 @@ let assumedString: String! = "An implicitly unwrapped optional string."
 let implicitString: String = assumedString // no need for an exclamation point
 ```
 
+### Strings and Characters
+
+A string is a series of characters, such as "hello, world" or "albatross". Swift strings are represented by the String type. The contents of a String can be accessed in various ways, including as a collection of Character values.
+
+Swift’s String and Character types provide a fast, Unicode-compliant way to work with text in your code. The syntax for string creation and manipulation is lightweight and readable, with a string literal syntax that’s similar to C. For more [here](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
+
+`String Literals` is squence of characters sarrounded by double quotes (") example:
+
+```
+let greeting = "Hello, world"
+```
+
+`Multiline String Literals` als is squence of characters sarrounded by three double quotes (") example:
+
+```
+let quotation = """
+The White Rabbit put on his spectacles.  "Where shall I begin,
+please your Majesty?" he asked.
+
+"Begin at the beginning," the King said gravely, "and go on
+till you come to the end; then stop."
+"""
+```
+
+`String Mutability` you indicate whether a particular String can be modified (or mutated) by assigning it to a variable (in which case it can be modified), or to a constant (in which case it can’t be modified):
+
+```
+var variableString = "Horse"
+variableString += " and carriage"
+// variableString is now "Horse and carriage"
+
+let constantString = "Highlander"
+constantString += " and another Highlander"
+// this reports a compile-time error - a constant string cannot be modified
+```
+
+`String Interpolation` is a way to construct a new String value from a mix of constants, variables, literals, and expressions by including their values inside a string literal. You can use string interpolation in both single-line and multiline string literals. Each item that you insert into the string literal is wrapped in a pair of parentheses, prefixed by a backslash (\):
+
+```
+let multiplier = 3
+let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
+// message is "3 times 2.5 is 7.5"
+```
+
+You can use extended string delimiters to create strings containing characters that would otherwise be treated as a string interpolation. For example:
+
+```
+print(#"Write an interpolated string in Swift using \(multiplier)."#)
+// Prints "Write an interpolated string in Swift using \(multiplier)."
+```
+
+To use string interpolation inside a string that uses extended delimiters, match the number of number signs after the backslash to the number of number signs at the beginning and end of the string. For example:
+
+```
+print(#"6 times 7 is \#(6 * 7)."#)
+// Prints "6 times 7 is 42."
+```
+
 For more Details Go to the [Swift Documentation](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)

@@ -12,4 +12,4 @@ i was struggling learning swift since when i was beginning, I decided to make th
 
 - [Basics](/Basics/Basic.md)
 - [Collection Types]()
-  - [Array](</Collection\ Types/Array.md>)
+  - [Array](/Collection%20Types/Array.md)

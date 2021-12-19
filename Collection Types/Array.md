@@ -54,3 +54,13 @@ if cars.isEmpty {
     print("Cars aren't empty")
 }
 ```
+
+you can also use a methods like `append(_:)` to add a new item to the array.
+`insert(_ , at: _)` this method simply helps you to add a new item to the array specifying that item index.
+`remove(at:_)` this method removes item index by describing item index in the array.
+`removeAll()` this method removes all items in the array.
+
+```
+cars.append("Ferrari") // cars will add new item using append method
+cars.remove(ar: 3) // note array index start's 0 or you array length - 1
+```

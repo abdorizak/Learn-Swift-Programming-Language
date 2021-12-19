@@ -11,7 +11,7 @@ i was struggling learning swift since when i was beginning, I decided to make th
 ### Start with me
 
 - [Basics](/Basics/Basic.md)
-- [Collection Types]()
+- [Collection Types](/Collection%20Types/)
   - [Array](/Collection%20Types/Array.md)
   - [Sets](/collection%20Types/Set.md)
   - [Dictionary](/collection%20Types/Dictionary.md)

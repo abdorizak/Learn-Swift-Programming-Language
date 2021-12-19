@@ -62,5 +62,21 @@ you can also use a methods like `append(_:)` to add a new item to the array.
 
 ```
 cars.append("Ferrari") // cars will add new item using append method
+// or you can use +=
+cars += ["Audi"]
 cars.remove(ar: 3) // note array index start's 0 or you array length - 1
+```
+
+- Iterating Over an Array
+  you can iterate over the entire set of values in an array with `for-in` loop:
+
+```
+for items in cars {
+    print(items)
+}
+// BMW
+// Tesla
+// Tayota
+// Ferrari
+// Audi
 ```

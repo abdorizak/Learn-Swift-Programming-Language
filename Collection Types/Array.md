@@ -34,7 +34,7 @@ we create cars array with variable if we create ou array as constant we can't ad
 ```
 let letters: [String] = ["A", "B", "C", "D"] // letters has been initialized with constant
 // you cant do insert or remove because it's constant and Xcode will tell you
-// Cannot use mutating member on immutable value: 'array' is a 'let' constant
+// Cannot use mutating member on immutable value: 'letters' is a 'let' constant
 ```
 
 - Accessing and Modifying an Array

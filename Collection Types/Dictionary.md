@@ -34,6 +34,6 @@ for (airportCode, airportName) in airports {
 }
 // YYZ: Toronto Pearson
 // DUB: Dublin
-// AAI : Mogadisho Adan Adde International
+// AAI: Mogadisho Adan Adde International
 ```
 

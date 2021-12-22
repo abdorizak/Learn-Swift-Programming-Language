@@ -32,5 +32,8 @@ var airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin", "AA
 for (airportCode, airportName) in airports {
     print("\(airportCode): \(airportName)")
 }
+// YYZ: Toronto Pearson
+// DUB: Dublin
+// AAI : Mogadisho Adan Adde International
 ```
 

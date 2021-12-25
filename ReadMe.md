@@ -13,5 +13,6 @@ i was struggling learning swift since when i was beginning, I decided to make th
 - [Basics](/Basics/Basic.md)
 - [Collection Types](/Collection%20Types/)
   - [Array](/Collection%20Types/Array.md)
-  - [Sets](/collection%20Types/Set.md)
-  - [Dictionary](/collection%20Types/Dictionary.md)
+  - [Sets](/Collection%20Types/Set.md)
+  - [Dictionary](/Collection%20Types/Dictionary.md)
+  - [Conditional Statements](/Conditional%20Statements/Conditional-Statements.md)

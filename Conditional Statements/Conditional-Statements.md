@@ -53,3 +53,6 @@ func voteEligibility() {
 
 voteEligibility()
 ```
+
+- Switch statements
+  You can also control flow via the switch statement. It executes different code depending on the value of a variable or constant. Here’s a switch statement that acts on an integer:

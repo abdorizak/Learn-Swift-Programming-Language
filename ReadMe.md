@@ -15,4 +15,4 @@ i was struggling learning swift since when i was beginning, I decided to make th
   - [Array](/Collection%20Types/Array.md)
   - [Sets](/Collection%20Types/Set.md)
   - [Dictionary](/Collection%20Types/Dictionary.md)
-  - [Conditional Statements](/Conditional%20Statements/Conditional-Statements.md)
+- [Conditional Statements](/Conditional%20Statements/Conditional-Statements.md)

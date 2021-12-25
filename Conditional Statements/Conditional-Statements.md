@@ -35,9 +35,9 @@ if hourOfDay < 6 {
 }
 ```
 
-- Ternary Operator
+- `Ternary Operator`:
   The ternary conditional operator takes a condition and returns one of two values, depending on whether the condition was true or false. The syntax is as follows:
-  (<CONDITION>) ? <TRUE VALUE> : <FALSE VALUE>
+  `(<CONDITION>) ? <TRUE VALUE> : <FALSE VALUE>`
 
 ```
 let a = 5
@@ -46,6 +46,12 @@ let b = 10
 let min = a < b ? a : b
 let max = a > b ? a : b
 ```
+
+In the first example, the condition is a < b. If this is true, the result assigned back to min will be the value of a; if it’s false, the result will be the value of b.
+
+I’m sure you’ll agree that’s much simpler! This is a useful operator that you’ll find yourself using regularly.
+
+`Note`: Because finding the greater or smaller of two numbers is such a common operation, the Swift standard library provides two functions for this purpose: max and min. If you were paying attention earlier in the book, then you’ll recall you’ve already seen these
 
 - Guard Statement
   also swift has guard statement is shorthand syntax is similar to if statement for example:

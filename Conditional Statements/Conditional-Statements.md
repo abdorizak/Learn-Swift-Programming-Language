@@ -35,46 +35,65 @@ if hourOfDay < 6 {
 }
 ```
 
+- Ternary Operator
+  The ternary conditional operator takes a condition and returns one of two values, depending on whether the condition was true or false. The syntax is as follows:
+  (<CONDITION>) ? <TRUE VALUE> : <FALSE VALUE>
+
+```
+let a = 5
+let b = 10
+
+let min = a < b ? a : b
+let max = a > b ? a : b
+```
+
 - Guard Statement
   also swift has guard statement is shorthand syntax is similar to if statement for example:
 
-```
+````
+
 func voteEligibility() {
 
     let age = 12
 
-  guard age >= 18 else {
-  print("Not Eligible to vote")
-  return
-  }
+guard age >= 18 else {
+print("Not Eligible to vote")
+return
+}
 
-  print("Eligible to vote")
+print("Eligible to vote")
 }
 
 voteEligibility()
+
 ```
 
 - Switch statements
   You can also control flow via the switch statement. It executes different code depending on the value of a variable or constant. Here’s a switch statement that acts on an integer:
 
 ```
+
 let hourOfDay = 12
 var timeOfDay = ""
 
 switch hourOfDay {
 case 0, 1, 2, 3, 4, 5:
-  timeOfDay = "Early morning"
+timeOfDay = "Early morning"
 case 6, 7, 8, 9, 10, 11:
-  timeOfDay = "Morning"
+timeOfDay = "Morning"
 case 12, 13, 14, 15, 16:
-  timeOfDay = "Afternoon"
+timeOfDay = "Afternoon"
 case 17, 18, 19:
-  timeOfDay = "Evening"
+timeOfDay = "Evening"
 case 20, 21, 22, 23:
-  timeOfDay = "Late evening"
+timeOfDay = "Late evening"
 default:
-  timeOfDay = "INVALID HOUR!"
+timeOfDay = "INVALID HOUR!"
 }
 
 print(timeOfDay)
+
 ```
+
+```
+````

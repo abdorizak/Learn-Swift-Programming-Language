@@ -56,3 +56,25 @@ voteEligibility()
 
 - Switch statements
   You can also control flow via the switch statement. It executes different code depending on the value of a variable or constant. Here’s a switch statement that acts on an integer:
+
+```
+let hourOfDay = 12
+var timeOfDay = ""
+
+switch hourOfDay {
+case 0, 1, 2, 3, 4, 5:
+  timeOfDay = "Early morning"
+case 6, 7, 8, 9, 10, 11:
+  timeOfDay = "Morning"
+case 12, 13, 14, 15, 16:
+  timeOfDay = "Afternoon"
+case 17, 18, 19:
+  timeOfDay = "Evening"
+case 20, 21, 22, 23:
+  timeOfDay = "Late evening"
+default:
+  timeOfDay = "INVALID HOUR!"
+}
+
+print(timeOfDay)
+```

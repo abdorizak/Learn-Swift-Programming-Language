@@ -2,9 +2,9 @@
 
 conditional Statements is wayt to check state if the expression is true do that or do that else do this, there is many was to check using `if-else` or `guard` or `switch` i will give you both them example,
 
-* if - else
+- if - else
   i want to check my user age if the user less than 18 years old will not allowed
-  let say my userAge is 15 
+  let say my userAge is 15
 
 ```
 if userAge < 18 {
@@ -13,3 +13,26 @@ if userAge < 18 {
     print("Accepted")
 }
 ```
+
+another example of if statement:
+
+```
+let hourOfDay = 12
+var timeOfDay = ""
+
+if hourOfDay < 6 {
+  timeOfDay = "Early morning"
+} else if hourOfDay < 12 {
+  timeOfDay = "Morning"
+} else if hourOfDay < 17 {
+  timeOfDay = "Afternoon"
+} else if hourOfDay < 20 {
+  timeOfDay = "Evening"
+} else if hourOfDay < 24 {
+  timeOfDay = "Late evening"
+} else {
+  timeOfDay = "INVALID HOUR!"
+}
+```
+
+also swift has guard statement is shorthand syntax is similar to if statement for example:

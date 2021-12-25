@@ -35,4 +35,21 @@ if hourOfDay < 6 {
 }
 ```
 
-also swift has guard statement is shorthand syntax is similar to if statement for example:
+- Guard Statement
+  also swift has guard statement is shorthand syntax is similar to if statement for example:
+
+```
+func voteEligibility() {
+
+    let age = 12
+
+  guard age >= 18 else {
+  print("Not Eligible to vote")
+  return
+  }
+
+  print("Eligible to vote")
+}
+
+voteEligibility()
+```

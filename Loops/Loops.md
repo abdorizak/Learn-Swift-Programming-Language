@@ -83,3 +83,7 @@ while i < students.count {
 
 print(stdAgesGreaterthan18)
 ```
+
+### repeat While loop
+
+The `repeat...while` loop is similar to while loop with one key difference. The body of `repeat...while` loop is executed once before the test expression is checked.

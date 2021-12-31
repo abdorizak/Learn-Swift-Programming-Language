@@ -1,6 +1,6 @@
 # Swift Loops
 
-loop are used to repeat a block of code like if you want to print `Hello World` 100 times loops will help you to print `Hello World` using loop.
+loops are used to repeat a block of code like if you want to print `Hello World` 100 times loops will help you to print `Hello World` using loop.
 swift loops are 3 types:
 
 - For in loop

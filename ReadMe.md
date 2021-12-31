@@ -17,3 +17,4 @@ i was struggling learning swift since when i was beginning, I decided to make th
   - [Dictionary](/Collection%20Types/Dictionary.md)
 - [Conditional Statements](/Conditional%20Statements/Conditional-Statements.md)
 - [Functions](/Functions/Functions.md)
+- [Loops](/Loops/Loops.md)

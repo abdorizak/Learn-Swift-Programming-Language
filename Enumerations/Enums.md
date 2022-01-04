@@ -52,3 +52,15 @@ enum Weather: CaseIterable {
 print("there are \(Weather.allCases.count) weather Types")
 output: there are 4 weather Types
 ```
+
+also you can use to iterate over all the cases in the enumeration using for-in loop
+
+```
+for items in Weather.allCases {
+    print(items)
+}
+output: // Rainy
+        // Hot 
+        // Sunny
+        // Winter
+```

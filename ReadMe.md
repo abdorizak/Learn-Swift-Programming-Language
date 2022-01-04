@@ -18,3 +18,4 @@ i was struggling learning swift since when i was beginning, I decided to make th
 - [Conditional Statements](/Conditional%20Statements/Conditional-Statements.md)
 - [Functions](/Functions/Functions.md)
 - [Loops](/Loops/Loops.md)
+- [Enumerations](/Enumerations/Enums.md)

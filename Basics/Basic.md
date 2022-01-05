@@ -3,14 +3,14 @@
 what is the constant and variable?
 `constant` is like when you declate name as constant you will not be able to assign new name like also use let when you want to create a new constant
 
-```
+```swift
 let name = "Abdi"
 name = "Ahmed" // this wrong you can't assign new name because it's constant
 ```
 
 `variable` is not like constant you can assign when you declare it works use when you want to create a new variable `var` for Example:
 
-```
+```swift
 var name = "Abdi"
 name = "Ahmed" // this works try in playground
 ```
@@ -24,7 +24,7 @@ name = "Ahmed" // this works try in playground
 Type Annotation means you giving a variable Type
 Example:
 
-```
+```swift
 var name: String = "Abdi" // this means the variable type is String you can't assign number
 name = 50 // this is wrong you cant assign number coz the type of name is String
 ```
@@ -33,7 +33,7 @@ name = 50 // this is wrong you cant assign number coz the type of name is String
 
 constant variable can contain almost any character, including unicode characters :
 
-```
+```swift
     let π = 3.14159
     let 你好 = "你好世界"
     let 🐶🐮 = "dogcow"
@@ -49,7 +49,7 @@ Once you’ve declared a constant or variable of a certain type, you can’t dec
 use typeAlias when you want to an existing type by name
 simple Example :
 
-```
+```swift
    typeAlais name = String
    let ahmed: name = "Ahmed Abdi" // this means ahmed is his type is string instead of writing type as string i used this example typeAlias
 ```
@@ -61,14 +61,14 @@ type Aliases are useful when you define you can use anywhere you want.
 Boolean values are referred to as logical becouse they can be true or false
 for Example :
 
-```
+```swift
     let lightIstrun = true
 ```
 
 To check boolean values we use conditional Statement using `if else`
 we have a variable `lightIstrun` let's check
 
-```
+```swift
     if lightIstrun { // this will check if true, will "Light is trunned on" also if lightIstrun is false will jump else
         print("Light is trunned on")
     } else {
@@ -86,13 +86,13 @@ According to `Paul Handsome` from [Hacking With Swift](https://www.hackingwithsw
 - You can’t change the type of items in a tuple; they always have the same types they were created with.
 - You can access items in a tuple using numerical positions or by naming them, but Swift won’t let you read numbers or names that don’t exist.
 
-```
+```swift
     var name = (firstname: "Abdorizak", lastname: "Abdalla")
 ```
 
 to access tuple use dot ( . ) by index or name
 
-```
+```swift
     name.0  or name.firstname
 ```
 
@@ -106,13 +106,13 @@ one of the my hardest concepts is optional but alot of partice i understand is s
 
 another one is when you declare a variable and you want to insert something use optional by telling his type for example :
 
-```
+```swift
     var name: string? // this will set automatically nil
 ```
 
 another Example :
 
-```
+```swift
     let number = "123" // this is string value we want to convert to int
     let convertedIntoInt = Int(number)
     // Output:  optional(123)
@@ -123,19 +123,19 @@ also remember if string is like "abc" to convert to int it's not allowed becouse
 
 `nil` You set an optional variable to a valueless state by assigning it the special value nil
 
-```
+```swift
     var food: string? = "Basto"
     // food constains an actual string value of "Basto"
     food = nil
     food now contains no value
 ```
 
-- ⚡️Remember you can't use nil with non-optional constants and variables, always declare us optional
+- ⚡️ Remember you can't use nil with non-optional constants and variables, always declare us optional
 
 `Force Unwrapping using if and else`
 you can use to force Unwrapp if we are going to use operators like `!=` or `==` to perform Compirison example :
 
-```
+```swift
 if food != nil {
     print("we have a food")
 } else {
@@ -146,7 +146,7 @@ if food != nil {
 once if you sure optional constains value you can add exclamation point `!` to the end optional this means you are effectively says i am sure this optional has value this is know as force Unwrapping
 example:
 
-```
+```swift
 if food != nil {
     print("we have a food called \(food!)")
 }
@@ -155,7 +155,7 @@ if food != nil {
 `Optional Binding`
 You use optional binding to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable. Optional binding can be used with if and while statements to check for a value inside an optional, and to extract that value into a constant or variable, as part of a single action. Example:
 
-```
+```swift
 if let food = food { // this optional biding
     print ("we have a food called \(food)")
 }
@@ -163,7 +163,7 @@ if let food = food { // this optional biding
 
 `Implicitly Unwrapped Optionals` this means you perform unwrapp without using if. this will throw an error if you optional value doesn't contain a value will crash you app that means you making a promise that optional will have a value sometimes this is not best practice only use when you know if optional has a value
 
-```
+```swift
 let possibleString: String? = "An optional string."
 let forcedString: String = possibleString! // requires an exclamation point
 
@@ -179,13 +179,13 @@ Swift’s String and Character types provide a fast, Unicode-compliant way to wo
 
 `String Literals` is squence of characters sarrounded by double quotes (") example:
 
-```
+```swift
 let greeting = "Hello, world"
 ```
 
 `Multiline String Literals` als is squence of characters sarrounded by three double quotes (") example:
 
-```
+```swift
 let quotation = """
 The White Rabbit put on his spectacles.  "Where shall I begin,
 please your Majesty?" he asked.
@@ -197,7 +197,7 @@ till you come to the end; then stop."
 
 `String Mutability` you indicate whether a particular String can be modified (or mutated) by assigning it to a variable (in which case it can be modified), or to a constant (in which case it can’t be modified):
 
-```
+```swift
 var variableString = "Horse"
 variableString += " and carriage"
 // variableString is now "Horse and carriage"
@@ -209,7 +209,7 @@ constantString += " and another Highlander"
 
 `String Interpolation` is a way to construct a new String value from a mix of constants, variables, literals, and expressions by including their values inside a string literal. You can use string interpolation in both single-line and multiline string literals. Each item that you insert into the string literal is wrapped in a pair of parentheses, prefixed by a backslash (\):
 
-```
+```swift
 let multiplier = 3
 let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
 // message is "3 times 2.5 is 7.5"
@@ -217,14 +217,14 @@ let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
 
 You can use extended string delimiters to create strings containing characters that would otherwise be treated as a string interpolation. For example:
 
-```
+```swift
 print(#"Write an interpolated string in Swift using \(multiplier)."#)
 // Prints "Write an interpolated string in Swift using \(multiplier)."
 ```
 
 To use string interpolation inside a string that uses extended delimiters, match the number of number signs after the backslash to the number of number signs at the beginning and end of the string. For example:
 
-```
+```swift
 print(#"6 times 7 is \#(6 * 7)."#)
 // Prints "6 times 7 is 42."
 ```

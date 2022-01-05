@@ -5,7 +5,7 @@ An enumeration defines a common type for a group of related values and enables y
 
 ### Enumeration Syntax and Example
 
-```
+```swift
 enum SomeEnumeration {
     // enumeration definition goes here
 }
@@ -13,7 +13,7 @@ enum SomeEnumeration {
 
 will Give you an enumeration with costum weatherType:
 
-```
+```swift
 enum Weather {
     case Rainy
     case Hot
@@ -41,7 +41,7 @@ weatherType(.Winter)
 
 For some enumerations, it’s useful to have a collection of all of that enumeration’s cases. You enable this by writing : CaseIterable after the enumeration’s name. Swift exposes a collection of all the cases as an allCases property of the enumeration type. Here’s an example:
 
-```
+```swift
 enum Weather: CaseIterable {
     case Rainy
     case Hot
@@ -55,12 +55,13 @@ output: there are 4 weather Types
 
 also you can use to iterate over all the cases in the enumeration using for-in loop
 
-```
+```swift
 for items in Weather.allCases {
     print(items)
 }
+
 output: // Rainy
-        // Hot 
+        // Hot
         // Sunny
         // Winter
 ```

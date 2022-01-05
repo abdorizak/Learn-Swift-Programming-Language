@@ -6,7 +6,7 @@ conditional Statements is wayt to check state if the expression is true do that 
   i want to check my user age if the user less than 18 years old will not allowed
   let say my userAge is 15
 
-```
+```swift
 if userAge < 18 {
     print("we are sorry, you are not allowed")
 } else {
@@ -16,7 +16,7 @@ if userAge < 18 {
 
 another example of if statement:
 
-```
+```swift
 let hourOfDay = 12
 var timeOfDay = ""
 
@@ -39,7 +39,7 @@ if hourOfDay < 6 {
   The ternary conditional operator takes a condition and returns one of two values, depending on whether the condition was true or false. The syntax is as follows:
   `(<CONDITION>) ? <TRUE VALUE> : <FALSE VALUE>`
 
-```
+```swift
 let a = 5
 let b = 10
 
@@ -56,8 +56,7 @@ I’m sure you’ll agree that’s much simpler! This is a useful operator that 
 - Guard Statement
   also swift has guard statement is shorthand syntax is similar to if statement for example:
 
-````
-
+```swift
 func voteEligibility() {
 
     let age = 12
@@ -71,14 +70,12 @@ print("Eligible to vote")
 }
 
 voteEligibility()
-
 ```
 
 - Switch statements
   You can also control flow via the switch statement. It executes different code depending on the value of a variable or constant. Here’s a switch statement that acts on an integer:
 
-```
-
+```swift
 let hourOfDay = 12
 var timeOfDay = ""
 
@@ -98,8 +95,4 @@ timeOfDay = "INVALID HOUR!"
 }
 
 print(timeOfDay)
-
 ```
-
-```
-````

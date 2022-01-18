@@ -8,16 +8,17 @@ Unlike other programming languages, Swift doesn’t require you to create separa
 
 `Classes` and `structures` (structs) are so similar in Swift that it's easy to get them confused at first, but actually there are some important underlying differences:
 
-* A `struct` cannot inherit from another kind of struct, whereas classes can build on other classes.
-* You can change the type of an object at runtime using typecasting. Structs cannot have inheritance, so have only one type.
-* If you point two variables at the same struct, they have their own independent copy of the data. With objects, they both point at the same variable.
+- A `struct` cannot inherit from another kind of struct, whereas classes can build on other classes.
+- You can change the type of an object at runtime using typecasting. Structs cannot have inheritance, so have only one type.
+- If you point two variables at the same struct, they have their own independent copy of the data. With objects, they both point at the same variable.
 
 That last point is particularly important: with a struct you know your data is fixed in place, like an integer or other value. This means if you pass your struct into a function, you know it's not going to get modified.
 
 ### Definition Syntax
+
 Structures and classes have a similar definition syntax. You introduce structures with the struct keyword and classes with the class keyword. Both place their entire definition within a pair of braces:
 
-``` swift
+```swift
 struct SomeStructure {
     // structure definition goes here
 }
@@ -26,4 +27,4 @@ class SomeClass {
 }
 ```
 
-
+Example [Here](./Structures&Class.playground/Contents.swift)

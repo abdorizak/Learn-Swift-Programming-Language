@@ -19,4 +19,4 @@ i was struggling learning swift since when i was beginning, I decided to make th
 - [Functions](/Functions/Functions.md)
 - [Loops](/Loops/Loops.md)
 - [Enumerations](/Enumerations/Enums.md)
-- [Structures And Classes](/Structures%20and%20Classes)
+- [Structures And Classes](/Structures%20and%20Classes/SC.md)

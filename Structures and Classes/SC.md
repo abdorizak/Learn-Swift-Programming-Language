@@ -27,4 +27,15 @@ class SomeClass {
 }
 ```
 
+Whenever you define a new structure or class, you define a new Swift type. Give types UpperCamelCase names (such as SomeStructure and SomeClass here) to match the capitalization of standard Swift types (such as String, Int, and Bool). Give properties and methods lowerCamelCase names (such as frameRate and incrementCount) to differentiate them from type names.
+
+# Accessing Properties
+
+You can access the properties of an instance using dot syntax. In dot syntax, you write the property name immediately after the instance name, separated by a period (.), without any spaces:
+
+```swift
+print("The width of someResolution is \(someResolution.width)")
+// Prints "The width of someResolution is 0
+```
+
 Example [Here](./Structures&Class.playground/Contents.swift)

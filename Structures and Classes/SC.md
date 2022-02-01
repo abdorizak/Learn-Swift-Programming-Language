@@ -58,11 +58,11 @@ Unlike value types, reference types are not copied when they’re assigned to a 
 Here’s an example, using the VideoMode class defined above:
 
 ```swift
-    let tenEighty = VideoMode()
-    tenEighty.resolution = hd
-    tenEighty.interlaced = true
-    tenEighty.name = "1080i"
-    tenEighty.frameRate = 25.0
+let tenEighty = VideoMode()
+tenEighty.resolution = hd
+tenEighty.interlaced = true
+tenEighty.name = "1080i"
+tenEighty.frameRate = 25.0
 ```
 
 Example [Here](./Structures&Class.playground/Contents.swift)

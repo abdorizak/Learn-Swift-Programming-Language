@@ -27,15 +27,42 @@ class SomeClass {
 }
 ```
 
+```swift
+struct Resolution {
+    var width = 0
+    var height = 0
+}
+class VideoMode {
+    var resolution = Resolution()
+    var interlaced = false
+    var frameRate = 0.0
+    var name: String?
+}
+```
+
 Whenever you define a new structure or class, you define a new Swift type. Give types UpperCamelCase names (such as SomeStructure and SomeClass here) to match the capitalization of standard Swift types (such as String, Int, and Bool). Give properties and methods lowerCamelCase names (such as frameRate and incrementCount) to differentiate them from type names.
 
-# Accessing Properties
+### Accessing Properties
 
 You can access the properties of an instance using dot syntax. In dot syntax, you write the property name immediately after the instance name, separated by a period (.), without any spaces:
 
 ```swift
 print("The width of someResolution is \(someResolution.width)")
 // Prints "The width of someResolution is 0
+```
+
+### Classes Are Reference Types
+
+Unlike value types, reference types are not copied when they’re assigned to a variable or constant, or when they’re passed to a function. Rather than a copy, a reference to the same existing instance is used.
+
+Here’s an example, using the VideoMode class defined above:
+
+```swift
+    let tenEighty = VideoMode()
+    tenEighty.resolution = hd
+    tenEighty.interlaced = true
+    tenEighty.name = "1080i"
+    tenEighty.frameRate = 25.0
 ```
 
 Example [Here](./Structures&Class.playground/Contents.swift)

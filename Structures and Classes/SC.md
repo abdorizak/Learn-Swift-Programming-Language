@@ -12,6 +12,9 @@ Unlike other programming languages, Swift doesn’t require you to create separa
 - You can change the type of an object at runtime using typecasting. Structs cannot have inheritance, so have only one type.
 - If you point two variables at the same struct, they have their own independent copy of the data. With objects, they both point at the same variable.
 
+- A `class` can be inherited from another class usign `:` Also Class uses refrence in memory.
+- class is mutable unless special effort is made to make it immutable.
+
 That last point is particularly important: with a struct you know your data is fixed in place, like an integer or other value. This means if you pass your struct into a function, you know it's not going to get modified.
 
 ### Definition Syntax

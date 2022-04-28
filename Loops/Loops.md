@@ -90,12 +90,10 @@ The `repeat...while` loop is similar to while loop with one key difference. The 
 
 ```swift
 
-        var counter = 0
-        repeat {
-            print("\(counter)")
-            counter += 1
-        } while (counter < 10)
+var counter = 0
+repeat {
+    print("\(counter)")
+    counter += 1
+} while (counter < 10)
 
 ```
-
-

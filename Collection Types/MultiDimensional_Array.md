@@ -9,5 +9,13 @@ print(array2D[0][0]) // 1
 print(array2D[0]) // [1, 2, 3]
 ```
 
+### how to iterate through a multidimentional array
 
-
+```swift
+for row in 0..<array2D.count {
+    for column in 0..<array2D[row].count {
+        print(array2D[row][column])
+    }
+    print("\n")
+}
+```

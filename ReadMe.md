@@ -20,7 +20,7 @@ i was struggling learning swift since when i was beginning, I decided to make th
 - [Collection Types](/Collection%20Types/)
   - [Array](/Collection%20Types/Array.md)
   - [2D Array](/Collection%20Types/MultiDimensional_Array.md)
-  - [Sets](/Collection%20Types/Set.md)
+  - [Sets](/Collection%20Types/Sets.md)
   - [Dictionary](/Collection%20Types/Dictionary.md)
 - [Conditional Statements](/Conditional%20Statements/Conditional-Statements.md)
 - [Functions](/Functions/Functions.md)

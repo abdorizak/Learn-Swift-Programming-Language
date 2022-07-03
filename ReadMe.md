@@ -27,3 +27,9 @@ i was struggling learning swift since when i was beginning, I decided to make th
 - [Loops](/Loops/Loops.md)
 - [Enumerations](/Enumerations/Enums.md)
 - [Structures And Classes](/Structures%20and%20Classes/SC.md)
+
+
+
+
+
+***copyritght © 2020 Abdorizak Abdalla. All rights reserved.***

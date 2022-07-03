@@ -1,5 +1,4 @@
 # Sets
-
 Sets are a type of sequence similar to arrays, except they may not store any item more than once and are unordered. This eliminates them from many places where you would use an array, but they do have one special super-power: it’s extremely fast to check whether a set contains a specific value. In fact, sets perform this operation at the same speed whether they contain 10 items or 10,000 items. [Hacking With Swift](https://www.hackingwithswift.com/example-code/language/what-are-sets)
 
 ```swift

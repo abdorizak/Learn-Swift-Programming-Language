@@ -32,4 +32,4 @@ i was struggling learning swift since when i was beginning, I decided to make th
 
 
 
-***copyritght © 2020 Abdorizak Abdalla. All rights reserved.***
+***copyritght © 2022 Abdorizak Abdalla. All rights reserved.***

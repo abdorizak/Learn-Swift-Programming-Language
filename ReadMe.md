@@ -30,6 +30,4 @@ i was struggling learning swift since when i was beginning, I decided to make th
 
 
 
-
-
 ***copyritght © 2022 Abdorizak Abdalla. All rights reserved.***

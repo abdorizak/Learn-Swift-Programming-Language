@@ -103,10 +103,10 @@ after creating the class we will create the student object and pass the value to
 
 ```swift
 let students1 = Student(firstName: "Abdorizak", lastName: "Abdalla", dateOfBirth: "1998", age: 18, stdClass: StudentClass(departmant: "Primary", classname: "Class B"))
-let students2 = Student(firstName: "Hassan", lastName: "Ali", dateOfBirth: "1998", age: 18, stdClass: StudentClass(departmant: "Primary", classname: "Class C"))
-let students3 = Student(firstName: "Abdorizak", lastName: "Abdalla", dateOfBirth: "1998", age: 18, stdClass: StudentClass(departmant: "Primary", classname: "Class B"))
-let students4 = Student(firstName: "Mohamed", lastName: "Hussein", dateOfBirth: "1998", age: 18, stdClass: StudentClass(departmant: "Primary", classname: "Class A"))
-let students5 = Student(firstName: "Samiir", lastName: "Ali", dateOfBirth: "1998", age: 18, stdClass: StudentClass(departmant: "Primary", classname: "Class A"))
+let students2 = Student(firstName: "Hassan", lastName: "Ali", dateOfBirth: "1998", age: 14, stdClass: StudentClass(departmant: "Primary", classname: "Class C"))
+let students3 = Student(firstName: "Abdorizak", lastName: "Abdalla", dateOfBirth: "1998", age: 22, stdClass: StudentClass(departmant: "Primary", classname: "Class B"))
+let students4 = Student(firstName: "Mohamed", lastName: "Hussein", dateOfBirth: "1998", age: 17, stdClass: StudentClass(departmant: "Primary", classname: "Class A"))
+let students5 = Student(firstName: "Samiir", lastName: "Ali", dateOfBirth: "1998", age: 19, stdClass: StudentClass(departmant: "Primary", classname: "Class A"))
 ```
 
 ## how to iterate through the students and get the list of students who are above 18 years old?

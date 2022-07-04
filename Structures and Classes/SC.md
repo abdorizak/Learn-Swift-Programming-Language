@@ -64,15 +64,13 @@ tenEighty.frameRate = 25.0
 ### another Example of Class and Struct
 Suppose you want to create a student class with student Information so we'll create seprate for the first will be struct for studentClass and department and second will be class for studentInformation. then i'll use methon inside class to check the student ages just for the sake of example.
 
-````swift
-
 ```swift
 // this is student classname and departmant
 struct StudentClass {
     var departmant: String = ""
     var classname: String = ""
 }
-````
+```
 so the Student `class` it will create a property for student class and department.
 
 ```swift

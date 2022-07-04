@@ -26,7 +26,7 @@ i was struggling learning swift since when i was beginning, I decided to make th
 - [Functions](/Functions/Functions.md)
 - [Loops](/Loops/Loops.md)
 - [Enumerations](/Enumerations/Enums.md)
-- [Structures And Classes Properties](/Structures%20and%20Classes%20Properties/SC.md)
+- [Structures And Classes Properties](/Structures%20and%20Classes%20and%20Properties/SC.md)
 
 
 

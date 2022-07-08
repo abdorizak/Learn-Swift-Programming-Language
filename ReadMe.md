@@ -30,6 +30,7 @@ i was struggling learning swift since when i was beginning, I decided to make th
 - [Properties](/Structures%20and%20Classes/Properties.md)
 - [Methods](/Structures%20and%20Classes/Methods.md)
 - [Singletons](/Structures%20and%20Classes/Singletons.md)
+- [Access Control](/Structures%20and%20Classes/AccessControl.md)
 
 
 ***copyritght © 2022 Abdorizak Abdalla. All rights reserved.***

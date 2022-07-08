@@ -28,6 +28,7 @@ i was struggling learning swift since when i was beginning, I decided to make th
 - [Enumerations](/Enumerations/Enums.md)
 - [Structures And Classes](/Structures%20and%20Classes/SC.md)
 - [Properties](/Structures%20and%20Classes/Properties.md)
+- [Methods](/Structures%20and%20Classes/Methods.md)
 
 
 
